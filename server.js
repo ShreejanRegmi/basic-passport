@@ -3,7 +3,6 @@ if (process.env.NODE_ENV !== "production") {
 }
 
 const express = require('express')
-const path = require('path')
 const bcrypt = require('bcrypt')
 const passport = require('passport')
 const flash = require('express-flash')
